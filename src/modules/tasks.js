@@ -1,4 +1,4 @@
-  /* eslint-disable import/no-mutable-exports */
+/* eslint-disable import/no-mutable-exports */
 let tasks = [];
 tasks = JSON.parse(localStorage.getItem('datas')) ?? [];
 
