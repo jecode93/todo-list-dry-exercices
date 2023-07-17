@@ -5,7 +5,6 @@ import tasks from './modules/tasks.js';
 import updateCompletedTask from './modules/updateCompleted.js';
 import './styles/style.css';
 
-
 export const main = document.querySelector('.container');
 const getData = () => {
   main.innerHTML = '';

@@ -1,6 +1,6 @@
 /* eslint-disable import/no-cycle */
 
-import getData from "./getData";
+import getData from './getData.js';
 
 const updateCompletedTask = (data, descript, checking, i) => {
   if (data[i].completed === false) {
