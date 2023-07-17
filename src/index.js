@@ -1,13 +1,13 @@
 /* eslint-disable import/no-cycle */
 import add from './modules/addRemove.js';
 import { removeAllTask, removeTask } from './modules/remove.js';
+import tasks from './modules/tasks.js';
 import updateCompletedTask from './modules/updateCompleted.js';
 import './styles/style.css';
 
-let tasks = [];
+
 export const main = document.querySelector('.container');
 const getData = () => {
-  tasks = JSON.parse(localStorage.getItem('datas')) ?? [];
   main.innerHTML = '';
   /* eslint-disable */
   document.body.appendChild(component());

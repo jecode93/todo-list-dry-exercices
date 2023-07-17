@@ -1,11 +1,13 @@
+import tasks from "./tasks";
+
 /* eslint-disable no-undef */
 export const main = document.querySelector('.container');
 
 const getData = () => {
-  tasks = JSON.parse(localStorage.getItem('datas')) ?? [];
+  tasks;
   main.innerHTML = '';
   /* eslint-disable */
-  document.body.appendChild(component());
+  document.body.appendChild(main);
   /* eslint-enable */
 };
 
